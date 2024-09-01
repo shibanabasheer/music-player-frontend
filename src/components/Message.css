@@ -1,0 +1,20 @@
+/* Message styling */
+.alert {
+  padding: 10px;
+  margin: 15px 0;
+  border-radius: 5px;
+  color: #fff;
+  text-align: center;
+}
+
+.alert-info {
+  background-color: #17a2b8;
+}
+
+.alert-danger {
+  background-color: #dc3545;
+}
+
+.alert-success {
+  background-color: #28a745;
+}

@@ -1,0 +1,69 @@
+.home-screen {
+  text-align: center;
+}
+
+.background-header {
+  background-image: url('../assets/pngtree-simple-abstract-ink-music-banner-picture-image_1093941.jpg'); /* Ensure the path is correct */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 250px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: rgb(11, 47, 114);
+}
+
+.background-header h1 {
+  font-size: 3rem;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.home-container {
+  text-align: center;
+  padding: 20px;
+}
+
+.music-player-icon {
+  width: 50px; /* Adjust size as needed */
+  height: auto;
+  margin-right: 20px;
+}
+
+.playlist-card {
+  border: 1px solid #ddd;
+  padding: 10px;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 300px;
+  box-sizing: border-box;
+}
+
+.playlist-image {
+  width: 100%;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+.playlist-card h3 {
+  font-size: 1.2rem;
+  margin: 10px 0 5px 0;
+}
+
+.playlist-card p {
+  font-size: 1rem;
+  color: #666;
+  margin: 0;
+}
+
+.error-message {
+  color: red;
+  font-size: 1rem;
+  margin-top: 10px;
+}

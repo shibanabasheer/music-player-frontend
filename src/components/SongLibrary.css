@@ -1,0 +1,100 @@
+.song-library {
+  margin: 20px 0;
+  padding: 20px;
+  background-color: #f7f7f7;
+  text-align: center;
+}
+
+.songs-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 20px;
+}
+
+.song-card {
+  padding: 15px;
+  background-color: #ffffff;
+  border-radius: 8px;
+  border: 1px solid #ddd;
+  text-align: center;
+  transition: transform 0.3s, box-shadow 0.3s;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.song-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
+
+.song-image {
+  width: 100%;
+  height: auto;
+  border-radius: 5px;
+  object-fit: cover;
+  margin-bottom: 10px;
+}
+
+.song-card h3 {
+  font-size: 1.2rem;
+  margin: 10px 0 5px 0;
+}
+
+.song-card p {
+  font-size: 1rem;
+  color: #666;
+}
+
+.song-card button {
+  background-color: #3a90ec;
+  color: white;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 10px;
+  cursor: pointer;
+  font-size: 14px;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.song-card button:hover {
+  background-color: #0056b3;
+}
+
+.song-card button:active {
+  transform: scale(0.95);
+}
+
+.song-card button:focus {
+  outline: none;
+}
+
+.song-library h2 {
+  font-size: 1.5rem;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  margin-bottom: 20px;
+  color: #444;
+}
+
+audio {
+  margin-top: 10px;
+  width: 100%;
+}
+
+.demo-playlist {
+  margin-top: 20px;
+  padding: 10px;
+  border-top: 1px solid #ccc;
+}
+
+.playlist-song {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.playlist-song-image {
+  width: 50px;
+  height: 50px;
+  object-fit: cover;
+  margin-right: 10px;
+}
+

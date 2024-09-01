@@ -1,0 +1,26 @@
+.song-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  gap: 20px;
+}
+
+.song-card {
+  padding: 10px;
+  background-color: #f0f0f0;
+  border-radius: 8px;
+  text-align: center;
+}
+
+.song-image {
+  width: 100%;
+  height: auto;
+  border-radius: 5px;
+}
+
+.song-card h4 {
+  margin-bottom: 5px;
+}
+
+.song-card p {
+  color: #666;
+}
